@@ -1,0 +1,148 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 18px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    font-family: fantasy;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 50px;
+
+}
+
+.produtos li:hover h2 {
+    font-size: 38px;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #1e8d12;
+}
+
+.produto-preco {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.produto-descricao {
+    font-size: 20px;
+}
+
+.nav-style {
+    font-family: fantasy;
+}
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+form {
+    font-family: fantasy;
+    margin: 40px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.opcaoparacontato {
+    display: inline-block;
+    width: 50%;
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 20px 0
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.radio {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.select {
+    font-family: fantasy;
+}
+
+
+

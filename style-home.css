@@ -1,0 +1,59 @@
+ Body{
+    font-size: 20px;
+}
+
+#banner {
+    height: 60%;
+    width: 99%;
+    border: 10px solid black;
+}
+
+.imagemBeneficios {
+    width: 30%
+    
+}
+
+.tituloPrincipal {
+    padding-left: 20px;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px
+}
+
+.tituloCentralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 24px
+}
+
+em strong{
+    color: red;
+}
+
+.itensBeneficios {
+    font-style: italic;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15;
+}
+
+
+
+
