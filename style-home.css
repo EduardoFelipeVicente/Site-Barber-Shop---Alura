@@ -4,8 +4,7 @@ Body{
 
 #banner {
     height: 60%;
-    width: 99%;
-    border: 10px solid black;
+    width: 100%;
 }
 
 .imagemBeneficios {
@@ -18,12 +17,13 @@ Body{
 }
 
 .principal {
-    background: #CCCCCC;
-    padding: 30px
+    padding: 30px;
+    margin: 10px 0;
 }
 
 .tituloCentralizado {
     text-align: center;
+    padding: 20px 0;
 }
 
 p {
@@ -40,9 +40,11 @@ em strong{
 
 .itensBeneficios {
     font-style: italic;
+
 }
 
 .beneficios {
+    display: inline-block;
     background: white;
     padding: 20px;
 }
@@ -56,6 +58,15 @@ ul {
 
 .body-home {
     font-family: fantasy;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    padding: 50px 0;
+    font-size: 30px;
 }
 
 
