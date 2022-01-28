@@ -60,7 +60,7 @@ main {
 form label, form p {
     display: block;
     font-size: 20px;
-    margin: 0 0 5px;
+    margin: 10px 0 0 5px;
 }
 
 .input-padrao {
@@ -92,6 +92,41 @@ form label, form p {
 .select {
     font-family: fantasy;
 }
+
+#mensagem {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 104%;
+}
+
+#nomecompleto {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+#email {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+#telefone {
+    font-family: fantasy;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+#opcoesatendimento {
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+
+
 
 
 
