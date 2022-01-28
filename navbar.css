@@ -1,0 +1,39 @@
+header {
+    background: url(bg.jpg);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 18px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #865718;
+}
+
+.nav-style {
+    font-family: fantasy;
+    display: inline;
+}
