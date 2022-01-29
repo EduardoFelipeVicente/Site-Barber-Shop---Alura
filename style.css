@@ -22,7 +22,6 @@
     border-top: 10px solid black;
     border-bottom: 10px solid black;
     border-radius: 50px;
-
 }
 
 .produtos li:hover h2 {
@@ -50,6 +49,7 @@
 form {
     font-family: fantasy;
     margin: 40px;
+    text-align: center;
 }
 
 main {
@@ -59,7 +59,7 @@ main {
 
 form label, form p {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     margin: 10px 0 0 5px;
 }
 
@@ -67,9 +67,10 @@ form label, form p {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 100%;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .opcaoparacontato {
@@ -77,7 +78,8 @@ form label, form p {
     width: 50%;
     font-family: fantasy;
     font-size: 20px;
-    margin: 20px 0
+    margin: 20px 0;
+    text-align: center;
 }
 
 .checkbox {
@@ -96,7 +98,7 @@ form label, form p {
 #mensagem {
     font-family: fantasy;
     font-size: 16px;
-    width: 104%;
+    width: 102%;
 }
 
 #nomecompleto {
@@ -104,6 +106,7 @@ form label, form p {
     font-size: 16px;
     width: 100%;
     padding: 10px;
+    margin: 10px 0 20px 0;
 }
 
 #email {
@@ -111,6 +114,7 @@ form label, form p {
     font-size: 16px;
     width: 100%;
     padding: 10px;
+    margin: 10px 0 20px 0;
 }
 
 #telefone {
@@ -118,6 +122,7 @@ form label, form p {
     font-size: 16px;
     width: 100%;
     padding: 10px;
+    margin: 10px 0 20px 0;
 }
 
 #opcoesatendimento {
@@ -125,6 +130,23 @@ form label, form p {
     font-size: 16px;
 }
 
+.botaoenviar {
+    width: 100%;
+    padding: 15px 0;
+    background: #865718;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+    transition: 0.5s all;
+    border: none;
+}
+
+.botaoenviar:hover {
+    background: #bb7111;
+    cursor: pointer;
+    transform: scale(1.2);
+}
 
 
 
