@@ -15,7 +15,7 @@
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 30px 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 3px solid black;
@@ -29,11 +29,11 @@
 }
 
 .produtos li:hover{
-    border-color: #C78C19;
+    border-color: #865718;
 }
 
 .produtos li:active {
-    border-color: #1e8d12;
+    border-color: #bb7111;
 }
 
 .produto-preco {
@@ -95,6 +95,7 @@ form label, form p {
     font-family: fantasy;
     font-size: 30px;
     padding: 0 20px 0;
+    text-align: center;
 }
 
 #mensagem {
@@ -163,6 +164,7 @@ form label, form p {
 table {
     margin: 20px 0 40px;
     text-align: center;
+    width: 100%;
 }
 
 td, th {
@@ -172,7 +174,15 @@ td, th {
     padding: 8px 15px;
 }
 
+.horarioatendimento {
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 20% 20px 0;
+    text-align: center;
+}
 
-
+#imagemprodutos {
+    width: 250px;
+}
 
 
