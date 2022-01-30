@@ -28,7 +28,9 @@ Body{
 
 p {
     text-align: center;
+    margin: 0 0 1em;
 }
+
 
 #missao {
     font-size: 24px
@@ -68,6 +70,9 @@ h3 {
     padding: 50px 0;
     font-size: 30px;
 }
+
+
+
 
 
 
