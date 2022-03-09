@@ -1,13 +1,3 @@
-.produtos {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 0px;
-    font-family: fantasy;
-}
 
 .produtos h2 {
     font-size: 30px;
